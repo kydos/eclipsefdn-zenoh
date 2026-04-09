@@ -62,10 +62,10 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       value: 'pass:bots/iot.zenoh/gpg/secret-subkeys.asc',
     },
     orgs.newOrgSecret('SSH_PASSPHRASE') {
-      value: 'pass:bots/iot.zenoh/gpg.recover/passphrase',
+      value: 'pass:bots/iot.zenoh/ssh/passphrase',
     },
     orgs.newOrgSecret('SSH_PRIVATE_KEY') {
-      value: 'pass:bots/iot.zenoh/gpg.recover/secret-subkeys.asc',
+      value: 'pass:bots/iot.zenoh/ssh/secret-subkeys.asc',
     },
     orgs.newOrgSecret('CENTRAL_SONATYPE_TOKEN_PASSWORD') {
       value: 'pass:bots/iot.zenoh/central.sonatype.org/token-password',
