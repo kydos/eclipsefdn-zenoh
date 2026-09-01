@@ -666,7 +666,7 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
-      description: 'The Eclipse Zenoh Repository to host experiments and any Zenoh research releated code.',
+      description: 'The Eclipse Zenoh Repository to host experiments and any Zenoh research related code.',
       homepage: 'https://zenoh.io',
       topics+: [
         'research',
