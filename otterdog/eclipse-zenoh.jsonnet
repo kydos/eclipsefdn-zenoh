@@ -669,8 +669,8 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       description: 'The Eclipse Zenoh Repository to host experiments and any Zenoh research releated code.',
       homepage: 'https://zenoh.io',
       topics+: [
-        'Research',
-        'EU Project',
+        'research',
+        'eu-project',
         'distributed-computing',
         'distributed-systems',
         'edge-computing',
